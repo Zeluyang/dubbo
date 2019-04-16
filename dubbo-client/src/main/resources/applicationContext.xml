@@ -69,7 +69,7 @@
 	<dubbo:application name="dubbo_consumer"></dubbo:application>
 	<!--使用zookeeper注册中心暴露服务地址 -->
 	<dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
-	<dubbo:protocol name="dubbo" port="20880" />
+	<dubbo:protocol name="dubbo" port="20881" />
 	<!--要引用的服务 -->
 	<dubbo:reference interface="cn.dubbo.service.ITestService" id="springservice"></dubbo:reference>
 

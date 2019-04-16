@@ -15,12 +15,7 @@
 
 		<property name="hibernate.hbm2ddl.auto">none</property>
 
-		<!-- 加载映射文件--> 
+		<!-- 加载映射文件 --> 
 		<!-- <mapping resource="cn/itcast/model/Customer.hbm.xml" />  -->
 	</session-factory>
 </hibernate-configuration>
-
-
-
-
-
